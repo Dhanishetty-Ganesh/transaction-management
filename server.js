@@ -17,7 +17,7 @@ app.use("/api", transactionRoutes);
 // Error Handler
 app.use(errorHandler);
 
-// Connect to MongoDB
+// Connection to MongoDB
 connectDB();
 
 const PORT = process.env.PORT || 5000;
